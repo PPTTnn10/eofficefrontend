@@ -1,0 +1,553 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/641bb9958a2bf3902f491fc4.641bb99635f640a2b81c5103.AUpgqIB.hch.png");
+
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.component-wrapper a {
+  display: contents;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.component-wrapper * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe {
+  pointer-events: auto;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-vertical {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  pointer-events: none;
+}
+
+.container-center-vertical > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.auto-animated div {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated input {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay-base {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay-base.animate-appear {
+  align-items: center;
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay-base.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.overlay-base.animate-disappear * {
+  pointer-events: none;
+}
+
+@keyframes reveal {
+  from { opacity: 0 }
+ to { opacity: 1 }
+}
+
+.animate-nodelay {
+  animation-delay: 0s;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root { 
+  --black: #000000;
+  --dove-gray: #707070;
+  --gamboge: #e99f0b;
+  --gravel: #4a4a4a;
+  --white: #ffffff;
+ 
+  --font-size-l: 40px;
+  --font-size-m: 35px;
+  --font-size-s: 30px;
+  --font-size-xl: 45px;
+  --font-size-xxl: 69px;
+  --font-size-xxxl: 73px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-normal-black-30px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-white-35px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root {
+}
+
+
+/* screen - register */
+
+.register {
+  background: linear-gradient(180deg, rgb(28.000000230968, 22.000000588595867, 27.000000290572643) 0%, rgb(55.00000052154064, 48.000000938773155, 54.00000058114529) 100%);
+  background-color: rgba(255,255,255,1.0);
+  border: 1px none;
+  height: 926px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 428px;
+}
+
+.register .x10364_210310_10-Qolay1 {
+  background-color: transparent;
+  height: 926px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 428px;
+}
+
+.register .rectangle-196-Qolay1 {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  height: 95px;
+  left: 24px;
+  mix-blend-mode: normal;
+  opacity: 0.2;
+  position: absolute;
+  top: 20px;
+  width: 190px;
+}
+
+.register .title-Qolay1 {
+  -webkit-text-stroke: 1px var(--gravel);
+  background-color: transparent;
+  color: var(--gravel);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 37px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  width: auto;
+}
+
+.register .group-2-Qolay1 {
+  background-color: transparent;
+  height: 76px;
+  left: 40px;
+  position: absolute;
+  top: 162px;
+  width: 353px;
+}
+
+.register .group-3-Qolay1 {
+  background-color: transparent;
+  height: 76px;
+  left: 40px;
+  position: absolute;
+  top: 249px;
+  width: 353px;
+}
+
+.register .group-4-Qolay1 {
+  background-color: transparent;
+  height: 76px;
+  left: 38px;
+  position: absolute;
+  top: 336px;
+  width: 353px;
+}
+
+.register .group-5-Qolay1 {
+  background-color: transparent;
+  height: 76px;
+  left: 37px;
+  position: absolute;
+  top: 423px;
+  width: 353px;
+}
+
+.register .group-6-Qolay1 {
+  background-color: transparent;
+  height: 76px;
+  left: 38px;
+  position: absolute;
+  top: 510px;
+  width: 353px;
+}
+
+.register .group-7-Qolay1 {
+  background-color: transparent;
+  height: 76px;
+  left: 38px;
+  position: absolute;
+  top: 597px;
+  width: 353px;
+}
+
+.register .rectangle-11-Qolay1 {
+  background-color: var(--gamboge);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 27px;
+  height: 85px;
+  left: 110px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 708px;
+  width: 230px;
+}
+
+.register .military_tech_fill0_wght400_grad0_opsz48-Qolay1 {
+  background-color: transparent;
+  height: 62px;
+  left: 48px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 172px;
+  width: 62px;
+}
+
+.register .icon-user-Qolay1 {
+  background-color: transparent;
+  height: 62px;
+  left: 51px;
+  object-fit: cover;
+  top: 255px;
+  width: 62px;
+}
+
+.register .badge_fill0_wght400_grad0_opsz48-Qolay1 {
+  background-color: transparent;
+  height: 60px;
+  left: 50px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 430px;
+  width: 60px;
+}
+
+.register .icon-user-SVfk6o {
+  background-color: transparent;
+  height: 57px;
+  left: 49px;
+  object-fit: cover;
+  top: 524px;
+  width: 57px;
+}
+
+.register .outline_vpn_key_black_24dp-Qolay1 {
+  background-color: transparent;
+  height: 66px;
+  left: 67px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 660px;
+  width: 66px;
+}
+
+.register .icon-user-8KUxSO {
+  background-color: transparent;
+  height: 62px;
+  left: 51px;
+  object-fit: cover;
+  top: 343px;
+  width: 62px;
+}
+
+.register .text_label-Qolay1 {
+  color: var(--black);
+  cursor: pointer;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  left: 161px;
+  top: 719px;
+}
+
+.register .icon-user-2Fyk8H {
+  background-color: var(--white);
+  height: 85px;
+  left: 38px;
+  opacity: 0.2;
+  top: 814px;
+  width: 355px;
+}
+
+.register .heve-an-account-logincreate-by-pruksa-Qolay1 {
+  -webkit-text-stroke: 1px var(--black);
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 71px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 802px;
+  width: auto;
+}
+
+.register .span0-sRskBZ {
+  color: var(--white);
+  font-style: normal;
+}
+
+.register .span1-sRskBZ {
+  color: var(--black);
+  font-style: normal;
+}
+
+.register .span2-sRskBZ {
+  color: #2000ff;
+  font-style: normal;
+}
+
+.register .span3-sRskBZ {
+  color: var(--white);
+  font-style: normal;
+}
+
+.register .text_label-SVfk6o {
+  left: 213px;
+  top: 178px;
+}
+
+.register .text_label-8KUxSO {
+  left: 213px;
+  top: 262px;
+}
+
+.register .text_label-2Fyk8H {
+  left: 189px;
+  top: 349px;
+}
+
+.register .text_label-wcwcUJ {
+  left: 135px;
+  top: 434px;
+}
+
+.register .rtarfmith-Qolay1 {
+  -webkit-text-stroke: 1px var(--dove-gray);
+  background-color: transparent;
+  height: auto;
+  left: 187px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 522px;
+  width: auto;
+}
+
+.register .text_label-3A2V4k {
+  left: 179px;
+  top: 613px;
+}
+
+.register .icon-user {
+  mix-blend-mode: normal;
+  position: absolute;
+}
+
+.register .rectangle-10 {
+  background-color: var(--gamboge);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 27px;
+  height: 76px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 84px;
+}
+
+.register .rectangle-9 {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 27px;
+  height: 76px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 353px;
+}
+
+.register .text_label {
+  -webkit-text-stroke: 1px var(--dove-gray);
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  width: auto;
+}
